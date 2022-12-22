@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery3.js"></script>
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="heading">Basic Information</h1>
+            <section class="registration-form">
+                <div class="avatar-container column">
+                    <img src="./avatar.jpg" alt="avatar" class="avatar">
+                    <button class="replace-image secondary">Replace image</button>
+                </div>
+                <form class="form column">
+                    <label for="firstname">First name<input type="text" name="firstname"></label>
+                    <label for="lastname">Last name<input type="text" name="lastname"></label>
+                    <label for="occupation">Occupation<input type="text" name="occupation"></label>
+                    <label for="company">Company<input type="text" name="company"></label>
+                    <label for="location-dropdown">Location
+                        <select name="location-dropdown">
+                            <option value="Jakarta">DKI Jakarta</option>
+                            <option value="Magelang">Magelang</option>
+                            <option value="Bali">Bali</option>
+                            <option value="Papua">Papua</option>
+                        </select>
+                    </label>
+                    <label for="location-text"><span class="hide-me">hide me</span><input type="text"
+                            name="location-texts"></label>
+                    <div class="submit-container"><button class="cancel secondary">Cancel</button><button
+                            class="submit">Submit</button></div>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+</body>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+
+</html>
