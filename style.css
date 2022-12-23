@@ -101,7 +101,7 @@ form {
     "occupation occupation"
     "company company"
     "location-dropdown location-text"
-    "submit-container submit-container";
+    "daftar-container daftar-container";
   gap: 1rem;
 }
 
@@ -151,8 +151,8 @@ label[for="location-text"] {
   margin-left: 0.5rem;
 }
 
-.submit-container {
-  grid-area: submit-container;
+.daftar-container {
+  grid-area: daftar-container;
   width: 100%;
   display: flex;
   justify-content: flex-end;
