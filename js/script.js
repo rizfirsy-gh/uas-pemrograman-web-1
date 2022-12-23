@@ -1,11 +1,8 @@
-$("button.cancel").on("click", function (event) {
-  $("input").html("");
+$("#cancel").on("click", function (event) {
+  $("#input").text(" ");
 });
 
-$("button.daftar").on("click", function (event) {
-  $("form").on("submit", function (event) {
-    event.preventDefault();
-    window.alert("berhasil daftar bro!");
-    $("input").html("");
-  });
+$(".daftar").on("click", (e) => {
+  e.preventDefault();
+  window.alert("Form akan terkirim! Terimakasih telah mendaftar!");
 });

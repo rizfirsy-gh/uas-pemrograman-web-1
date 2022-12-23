@@ -23,11 +23,11 @@
                     <img src="./avatar.jpg" alt="avatar" class="avatar">
                     <button class="replace-image secondary">Ganti gambar</button>
                 </div>
-                <form class="form column">
-                    <label for="firstname">First name<input type="text" name="firstname"></label>
-                    <label for="lastname">Last name<input type="text" name="lastname"></label>
-                    <label for="occupation">Occupation<input type="text" name="occupation"></label>
-                    <label for="company">Company<input type="text" name="company"></label>
+                <form class="form column" id="form">
+                    <label for="firstname">First name<input id="input" type="text" name="firstname"></label>
+                    <label for="lastname">Last name<input id="input" type="text" name="lastname"></label>
+                    <label for="occupation">Occupation<input id="input" type="text" name="occupation"></label>
+                    <label for="company">Company<input id="input" type="text" name="company"></label>
                     <label for="location-dropdown">Location
                         <select name="location-dropdown">
                             <option value="Jakarta">DKI Jakarta</option>
@@ -36,9 +36,9 @@
                             <option value="Papua">Papua</option>
                         </select>
                     </label>
-                    <label for="location-text"><span class="hide-me">hide me</span><input type="text"
+                    <label for="location-text"><span class="hide-me">hide me</span><input id="input" type="text"
                             name="location-texts"></label>
-                    <div class="daftar-container"><button class="cancel secondary">Batal</button><button
+                    <div class="daftar-container"><button class="cancel secondary" action="cancel">Batal</button><button
                             class="daftar">Daftar</button></div>
                 </form>
             </section>
