@@ -21,25 +21,35 @@
             <section class="registration-form">
                 <div class="avatar-container column">
                     <img src="./avatar.jpg" alt="avatar" class="avatar">
-                    <button class="replace-image secondary">Ganti gambar</button>
+                    <a href="https://www.instagram.com/rizkvfirmansvah" target="_blank">Rizky Firman Syah</a>
+                    <p>201011401132</p>
+                    <p>05TPLK001</p>
                 </div>
                 <form class="form column" id="form">
-                    <label for="firstname">First name<input id="input" type="text" name="firstname"></label>
-                    <label for="lastname">Last name<input id="input" type="text" name="lastname"></label>
-                    <label for="occupation">Occupation<input id="input" type="text" name="occupation"></label>
-                    <label for="company">Company<input id="input" type="text" name="company"></label>
+                    <label for="firstname">First name<input id="firstname" type="text" name="firstname"
+                            required></label>
+                    <label for="lastname">Last name<input id="lastname" type="text" name="lastname" required></label>
+                    <label for="occupation">Occupation<input id="occupation" type="text" name="occupation"
+                            required></label>
+                    <label for="company">Company<input id="company" type="text" name="company" required></label>
                     <label for="location-dropdown">Location
-                        <select name="location-dropdown">
+                        <select name="location-dropdown" required>
                             <option value="Jakarta">DKI Jakarta</option>
                             <option value="Magelang">Magelang</option>
                             <option value="Bali">Bali</option>
                             <option value="Papua">Papua</option>
                         </select>
                     </label>
-                    <label for="location-text"><span class="hide-me">hide me</span><input id="input" type="text"
-                            name="location-texts"></label>
-                    <div class="daftar-container"><button class="cancel secondary" action="cancel">Batal</button><button
-                            class="daftar">Daftar</button></div>
+                    <label for="location-text"><span class="hide-me">hide me</span><input id="location" type="text"
+                            name="location-texts" required></label>
+                    <div class="daftar-container">
+                        <button class="cancel secondary" action="cancel">
+                            Batal
+                        </button>
+                        <button class="daftar">
+                            Daftar
+                        </button>
+                    </div>
                 </form>
             </section>
         </div>
